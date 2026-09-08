@@ -14,13 +14,16 @@
     </header>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#interests">Interests</a>
+    <a href="#about">About</a>
+    <a href="#interests">Interests</a>
+    <a href="#bio">Bio</a>
+    <a href="#photo">Photo</a>
+    <a href="#contact">Contact</a>
     </nav>
 
  <main>
 
-    <section>
+    <section id="about">
         <h2>Who I Am</h2>
         <p>
             My name is Sirine Kaddour. I am a Computer and Communication Engineering student who enjoys
@@ -29,7 +32,7 @@
         </p>
     </section>
 
-    <section>
+    <section id="interests">
         <h2>My Interests</h2>
         <p>
             I am interested in software development and cybersecurity.
@@ -38,7 +41,7 @@
         </p>
     </section>
 
-    <section>
+    <section id="bio">
         <h2>Bio</h2>
 
         <p>
@@ -53,9 +56,32 @@
         </p>
     </section>
 
-    <section>
+    <section id="photo">
     <h2>My Photo</h2>
     <img src="profile.jpg" alt="Portrait of Sirine Kaddour" width="300">
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Send</button>
+    </form>
 </section>
 
 </main>
